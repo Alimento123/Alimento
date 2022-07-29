@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="CodeHim">
+    <title>Shopping Cart with Total Price Example</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+      
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+	<!-- Demo CSS (No need to include it into your project) -->
+	<link rel="stylesheet" href="css/demo.css">
+  
+  </head>
+  <body>
+ <header class="intro">
+ <h1>Shopping Cart </h1>
+ 
+
+ 
+ </header>
+  
+      
+ <main>
+     
+ <div class="container">
+  <div class="screen-togo">
+    <h2>To Go Menu</h2>
+    <ul class="menu-items">
+      <!--    Menu Item 1    -->
+      <li class="menu-item">
+        
+        <div class="menu-item-dets">
+          <p class="menu-item-heading">chicken biryani</p>
+          <p class="g-price">200</p>
+        </div>
+        <button
+          class="add-button"
+          data-title="Chicken biryani"
+          data-price="200">Add to Cart</button>
+      </li>
+      <!--    Menu Item 2    -->
+      <li class="menu-item">
+        
+        <div class="menu-item-dets">
+          <p class="menu-item-heading">fry piece biryani</p>
+          <p class="g-price">210</p>
+        </div>
+        <button
+          class="add-button"
+          data-title="fry piece biryani"
+          data-price="210">Add to Cart</button>
+      </li>
+      <!--    Menu Item 3    -->
+      <li class="menu-item">
+        
+        <div class="menu-item-dets">
+          <p class="menu-item-heading">veg biryani</p>
+          <p class="g-price">120</p>
+        </div>
+        <button
+          class="add-button"
+          data-title="veg biryani"
+          data-price="120">Add to Cart</button>
+      </li>
+      <!--    Menu Item 4    -->
+      <li class="menu-item">
+        
+        <div class="menu-item-dets">
+          <p class="menu-item-heading">paneer biryani</p>
+          <p class="g-price">150</p>
+        </div>
+        <button 
+          class="add-button"
+          data-title="paneer biryani"
+          data-price="150"
+          >Add to Cart</button>
+      </li>
+      <!--    Menu Item 5    -->
+      <li class="menu-item">
+        
+        <div class="menu-item-dets">
+          <p class="menu-item-heading">egg biryani</p>
+          <p class="g-price">150</p>
+        </div>
+        <button
+          class="add-button"
+          data-title="egg biryani"
+          data-price="150">Add to Cart</button>
+      </li>
+    </ul>
+  </div>
+  <div class="screen-cart">
+    <h2>Your Cart</h2>
+    <!--  Cart Items -->
+    <ul class="cart-items">
+    </ul>
+    
+    <div class="cart-math">
+      <p>Add items to cart</p>
+    </div>
+  </div>
+</div>    
+     <!-- END EDMO HTML (Happy Coding!)-->
+ </main>
+ 
+      
+    
+<!-- jQuery -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+      
+<!-- Shopping Cart Js -->
+<script src="js/script.js"></script>     
+      
+  </body>
+</html>
